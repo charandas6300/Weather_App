@@ -1,6 +1,6 @@
 .container{
     width: 400px;
-    height: 500px;
+    height: 600px;
     margin: auto;
     margin-top: 75px;
     border-radius: 12px;
@@ -30,4 +30,49 @@
 .top-bar input::placeholder {
     position: relative;
     left: 10px; 
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37px;
+    background-color:#ebfffc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.weather-image{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.weather-temp{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+}
+
+.weather-location{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+
+.data-container{
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.element{
+    margin: auto;
+    display: flex;
+    align-items:flex-start;
+    gap: 7px;
+}
+.icon{
+    margin-top: 8px;
 }
